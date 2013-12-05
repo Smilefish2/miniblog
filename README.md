@@ -24,8 +24,11 @@ MiniBlog特性
 ------------------
 
 1.管理后台URL自定义，方法是：打开application/config/config.php，修改$config['admin_url']='admin';中'admin'为你想要的目录名称，注意只能是英文哈,中文偶没有测试过~
+
 2.URL后辍URL自定义，方法是：打开application/config/config.php，修改$config['url_suffix'] = '.html';中'.html'为你想要的页面后辍，注意不能是'.exe'哈,搜索引擎百分百不收录的~
+
 3.理论上支持BlogMi所有模板，因为实现方法从函数变成类，所以除去本身自带的模板，其它的BlogMi模板必须修改代码才可以在MiniBlog中使用，方法是搜索模板文件index.php中的mc_，替换成$mb->即可。
+
 4.实现多模板切换功能，需要在application/config/views下建立模板文件，在application/config/views/admin/setting.php中的模板选择下拉框中增加模板选项，即可一键切换前台主题
 
 MiniBlog升级指导
@@ -35,14 +38,14 @@ MiniBlog升级指导
 
 或按以下步骤进行更新:
 
-备份application/config/miniblog.php配置文件
-备份application/data文件夹
-备份/static/uploads文件夹
-删除MiniBlog所有文件或所在目录，上传新版本的MiniBlog到网站目录
-覆盖上传application/config/miniblog.php配置文件
-覆盖上传application/data文件夹
-覆盖上传/static/uploads文件夹
-删除application/cache下的所有.cache文件，刷新网站首页，OK
+1.备份application/config/miniblog.php配置文件
+2.备份application/data文件夹
+3.备份/static/uploads文件夹
+4.删除MiniBlog所有文件或所在目录，上传新版本的MiniBlog到网站目录
+5.覆盖上传application/config/miniblog.php配置文件
+6.覆盖上传application/data文件夹
+7.覆盖上传/static/uploads文件夹
+8.删除application/cache下的所有.cache文件，刷新网站首页，OK
 
 MiniBlog下载和更新日志
 ---------------------------------
