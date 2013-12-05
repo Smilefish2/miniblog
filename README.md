@@ -1,5 +1,5 @@
 项目介绍
------------
+--------
 
 MiniBlog是一个超轻量级、微型、开源的博客、轻博客程序，核心思想继承自MiniCMS，MiniCMS是一个针对个人网站设计的微型内容管理系统，详细介绍可查看Github项目地址：https://github.com/bg5sbk/MiniCMS/ ，功能和模板上继承自BlogMi，实现了BlogMi的所有功能并有自己的一些扩展，BlogMi项目地址：http://haow.in/blogmi/ ，实际上，MiniBlog是一个用PHP框架CodeIgniter重写版的BlogMi，相比BlogMi，增加了以下功能：
 
@@ -21,7 +21,7 @@ MiniBlog是一个超轻量级、微型、开源的博客、轻博客程序，核
 OK,开始使用吧
 
 MiniBlog特性
-------------------
+------------
 
 1.管理后台URL自定义，方法是：打开application/config/config.php，修改$config['admin_url']='admin';中'admin'为你想要的目录名称，注意只能是英文哈,中文偶没有测试过~
 
@@ -32,7 +32,7 @@ MiniBlog特性
 4.实现多模板切换功能，需要在application/config/views下建立模板文件，在application/config/views/admin/setting.php中的模板选择下拉框中增加模板选项，即可一键切换前台主题
 
 MiniBlog升级指导
----------------------------
+----------------
 
 更新miniblog最安全的方法是备份老版本整站文件，在新版上传到网站完成后，从老版网站文件中覆盖上传以下文件：application/config/miniblog.php配置文件、application/data文件夹、/static/uploads文件夹。
 
@@ -48,6 +48,6 @@ MiniBlog升级指导
 8.删除application/cache下的所有.cache文件，刷新网站首页，OK
 
 MiniBlog下载和更新日志
----------------------------------
+----------------------
 
 最新更新日志请前往：http://blog.weixiaodeyu.com/miniblog
