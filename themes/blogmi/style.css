@@ -1,0 +1,245 @@
+﻿* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family:"Microsoft YaHei", Arial;
+	font-size:16px;
+	background:#EAEAEC;
+	color:#333;
+}
+a {
+	color:#444;
+	text-decoration:none;
+	outline:none;
+	blr:expression(this.onFocus=this.blur());
+}
+a:hover {
+	color:#111;
+	text-decoration:none;
+}
+p {
+	text-indent:2em;
+	line-height:34px;
+	padding:3px 0;
+}
+.clear {
+	clear:both;
+}
+img {
+	border:0;
+}
+h1 {
+	font-weight:normal;
+	font-size:22px;
+	color:#333;
+}
+ul, li {
+	list-style: none;
+}
+#main {
+	width:846px;
+	margin:0 auto;
+	padding:24px 0;
+}
+#header {
+	margin: 0 0 30px 0;
+}
+#sitename {
+	font-size: 45px;
+}
+#side {
+	float: right;
+	width: 220px;
+}
+.search {
+	margin-bottom:15px;
+}
+.search .keyword {
+	width:160px;
+}
+.search .submit {
+	width:50px;
+	height:20px;
+	border:1px solid #CCC;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+.photo {
+	background: #F6F6F6;
+	padding:20px;
+	border:1px solid #CCC;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+.photo img {
+	width: 180px;
+	height: 180px;
+}
+.about {
+	margin-top: 10px;
+	line-height:1.8;
+	overflow: hidden;
+	word-wrap: break-word;
+}
+#navbar {
+	width:175px;
+	margin:30px auto 0 auto;
+}
+#navbar a {
+	text-indent:-100em;
+}
+a.home {
+	width:49px;
+	height: 33px;
+	float: left;
+	background: url("nav_bg.gif") 0 0 no-repeat;
+}
+a.home:hover {
+	background-position:0 -52px;
+}
+a.archive {
+	width:42px;
+	height: 33px;
+	float: left;
+	background: url("nav_bg.gif") -92px 0px no-repeat;
+}
+a.archive:hover {
+	background-position:-92px -52px;
+}
+a.contact {
+	width:41px;
+	height: 33px;
+	float: left;
+	background: url("nav_bg.gif") -50px 0px no-repeat;
+}
+a.contact:hover {
+	background-position:-50px -52px;
+}
+a.rss {
+	width:43px;
+	height: 33px;
+	float: left;
+	background: url("nav_bg.gif") -134px 0px no-repeat;
+}
+a.rss:hover {
+	background-position:-134px -52px;
+}
+#page_info {
+	padding-top:10px;
+	margin:0 0 30px 0;
+}
+#page_info span {
+	font-size:16px;
+	line-height:24px;
+	color:#fff;
+	background:#333;
+	padding:4px 8px;
+	border-radius:8px;
+}
+#content {
+	float: left;
+	width: 560px;
+	padding:0 0 20px 0;
+}
+#content_box {
+}
+#content .post .title {
+	line-height:22px;
+	margin:0 -30px;
+	padding: 20px;
+	background: #E5E5E4;
+}
+.post_meta {
+	margin:0 -30px;
+	padding:10px 16px 10px 20px;
+	font-size:12px;
+	height:26px;
+	background: #E5E5E4;
+	color: #777;
+	line-height: 20px;
+}
+.post_meta a {
+	margin:2px 4px;
+	color: #777;
+}
+.post_meta a:hover {
+	margin:2px 4px;
+	color: #444;
+}
+.post_date {
+	float:left;
+	background: url(date.gif) no-repeat left;
+	padding: 1px 0 2px 22px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:14px;
+	margin-right: 30px;
+}
+.post_tag {
+	float:left;
+	background: url(tag.gif) no-repeat left;
+	padding: 4px 0 2px 19px;
+}
+.post_comm {
+	float:right;
+	background: url(comm.gif) no-repeat left;
+	padding: 4px 0 2px 18px;
+}
+#content .post .content {
+	padding:15px 0;
+}
+#content .post img {
+	max-width:498px;
+	width:expression(this.width > 498 ? "498px" : this.width);
+	overflow:hidden;
+	margin:0 0 5px -2em;
+}
+#content .post {
+	padding: 0px 30px 0px 30px;
+	margin: 0 0 40px 0;
+	background: #F6F6F6;
+	border:1px solid #CCC;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+#content .tags {
+	padding-bottom:0;
+}
+.date_list {
+	float:left;
+	width:150px;
+}
+.tag_list {
+	float:left;
+	width:150px;
+}
+#list li, .date_list, .tag_list {
+	margin-bottom:8px;
+}
+#page_bar {
+	font-size: 40px;
+	text-align: center;
+	font-family: Georgia, serif;
+	font-style: italic;
+}
+#page_bar a {
+	padding:0 8px;
+	color:#666;
+}
+#page_bar a:hover {
+	color:#111;
+}
+#footer {
+	text-align:center;
+	margin:60px auto;
+	font-size:13px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	color:#CCC;
+}
+#footer a {
+	color:#BBB;
+}
+#footer a:hover {
+	color: #999;
+}

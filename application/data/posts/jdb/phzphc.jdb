@@ -1,0 +1,1 @@
+a:8:{s:2:"id";s:6:"phzphc";s:5:"state";s:7:"publish";s:5:"title";s:13:"Hello, World!";s:4:"tags";a:1:{i:0;s:8:"MiniBlog";}s:4:"date";s:10:"2013-11-29";s:4:"time";s:8:"04:52:26";s:11:"can_comment";s:1:"1";s:7:"content";s:193:"MiniBlog是一个用CodeIgniter框架编写的超轻量博客、轻博客程序。详细介绍请前往：<a href="http://blog.weixiaodeyu.com/miniblog">http://blog.weixiaodeyu.com/miniblog</a>";}
