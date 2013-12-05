@@ -1,7 +1,7 @@
 项目介绍
 -----------
 
-MiniBlog是一个超轻量级、微型、开源的博客、轻博客程序，核心思想继承自MiniCMS，MiniCMS是一个针对个人网站设计的微型内容管理系统，详细介绍可查看Github项目地址：https://github.com/bg5sbk/MiniCMS/，功能和模板上继承自BlogMi，实现了BlogMi的所有功能并有自己的一些扩展，BlogMi项目地址：http://haow.in/blogmi/，实际上，MiniBlog是一个用PHP框架CodeIgniter重写版的BlogMi，相比BlogMi，增加了以下功能：
+MiniBlog是一个超轻量级、微型、开源的博客、轻博客程序，核心思想继承自MiniCMS，MiniCMS是一个针对个人网站设计的微型内容管理系统，详细介绍可查看Github项目地址：https://github.com/bg5sbk/MiniCMS/ ，功能和模板上继承自BlogMi，实现了BlogMi的所有功能并有自己的一些扩展，BlogMi项目地址：http://haow.in/blogmi/ ，实际上，MiniBlog是一个用PHP框架CodeIgniter重写版的BlogMi，相比BlogMi，增加了以下功能：
 
 1.实现了URL伪静态化，URL后辍可自由定制，增强SEO。
 2.增加了搜索功能，实现标题和内容双重搜索。
