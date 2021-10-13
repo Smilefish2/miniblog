@@ -48,6 +48,13 @@ $route[config_item('admin_url')] = 'admin';
 $route[config_item('admin_url').'(/.*)?'] = 'admin$1';
 
 /*
+ *
+ *
+ */
+
+$route['archive'] = 'welcome/archive/$1';
+
+/*
  * 归档路由
  */
 $route['archive'] = 'welcome/archive/$1';

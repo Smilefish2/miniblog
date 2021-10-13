@@ -1,5 +1,6 @@
+.idea
 */config/development
-*/logs/log-*.php
-*/logs/!index.html
-*/cache/*
-*/cache/!index.html
+application/logs/log-*.php
+!application/logs/index.html
+application/cache/*.cache
+!application/cache/index.html
