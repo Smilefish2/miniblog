@@ -254,7 +254,11 @@ if ( ! function_exists('get_config'))
 			}
 		}
 
-		return $_config[0] =& $config;
+		// PHP 7 以上 Notice： Only variable references should be returned by reference
+		// return $_config[0] =& $config;
+        // 更换为下面的方式 @jmj 20211013
+        $_config[0] =& $config;
+        return $_config[0];
 	}
 }
 
