@@ -47,12 +47,12 @@ $route['404_override'] = '';
 $route[config_item('admin_url')] = 'admin';
 $route[config_item('admin_url').'(/.*)?'] = 'admin$1';
 
-/*
- *
- *
- */
-
-$route['archive'] = 'welcome/archive/$1';
+///*
+// * 文章路由(如需加前缀如post)
+// *
+// */
+//
+//$route['post/(:any)'] = 'welcome/index/$1';
 
 /*
  * 归档路由
